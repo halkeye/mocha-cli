@@ -1,36 +1,39 @@
-# eslint-cli
+# mocha-cli
 
-[![npm version](https://img.shields.io/npm/v/eslint-cli.svg)](https://www.npmjs.com/package/eslint-cli)
-[![Downloads/month](https://img.shields.io/npm/dm/eslint-cli.svg)](https://www.npmjs.com/package/eslint-cli)
-[![Dependency Status](https://david-dm.org/mysticatea/eslint-cli.svg)](https://david-dm.org/mysticatea/eslint-cli)
+[![npm version](https://img.shields.io/npm/v/mocha-cli.svg)](https://www.npmjs.com/package/mocha-cli)
+[![Downloads/month](https://img.shields.io/npm/dm/mocha-cli.svg)](https://www.npmjs.com/package/mocha-cli)
+[![Dependency Status](https://david-dm.org/halkeye/mocha-cli.svg)](https://david-dm.org/halkeye/mocha-cli)
 
-The local [eslint](https://github.com/eslint/eslint) executor.
+The local [mocha](https://github.com/mochajs/mocha) executor.
 
 ## Installation
 
 ```
-> npm install -g eslint-cli
+> npm install -g mocha-cli
 ```
 
 **Note:**
 
-- The `eslint` module must not be installed into global.
+- The `mocha` module must not be installed into global.
 - This module must be installed into global.
 
 ## Usage
 
-First, please install the `eslint` module in local.
+First, please install the `mocha` module in local.
 
 ```
-> npm install --save-dev eslint
+> npm install --save-dev mocha
 ```
 
-Next, please do `eslint`.
+Next, please do `mocha`.
 
 ```
-> eslint lib
+> mocha 
 ```
 
-This command executes the global `eslint-cli`, then it finds and executes the local `eslint`.
+This command executes the global `mocha-cli`, then it finds and executes the local `mocha`.
 
 That's all. Enjoy!
+
+
+PS. Copied heavily from https://github.com/mysticatea/eslint-cli
